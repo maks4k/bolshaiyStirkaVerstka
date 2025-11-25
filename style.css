@@ -48,7 +48,6 @@ a {
   width: 100%;
   padding: 0;
   margin: 0 auto;
-  border: 1px solid red;
   overflow: hidden;
 }
 /* 
@@ -777,7 +776,6 @@ input:-moz-placeholder {
   font-size: 18px;
   font-weight: 400;
   line-height: 22px;
-  letter-spacing: 0%;
   text-align: left;
   margin-bottom: 132px;
 }
