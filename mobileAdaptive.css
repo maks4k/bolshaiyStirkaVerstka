@@ -1,0 +1,708 @@
+@media (max-width: 428px) {
+  .nav-list-block {
+    display: none;
+  }
+
+  .phone-icon {
+    display: none; /* скрываем десктопный телефон */
+  }
+
+  .mobile-menu {
+    display: block;
+  }
+
+  .burger-btn {
+    display: flex;
+  }
+
+  .header-nav {
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+
+  .header-content {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 16px;
+    gap: 30px;
+  }
+
+  .header-content-hero {
+    gap: 25px;
+    align-items: center;
+    text-align: center;
+    order: 2; /* текст после картинки */
+  }
+
+  .header-content-heading {
+    width: 343px;
+    height: auto;
+    font-family: "Montserrat";
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: center;
+    margin: 0;
+    transform: none;
+  }
+
+  .header-conten-heading-mode {
+    width: 343px;
+    height: auto;
+    font-family: "Montserrat";
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+  }
+
+  .header-content-text {
+    width: 343px;
+    height: auto;
+    color: rgba(170, 138, 125, 1);
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    top: -196px;
+    left: 0px;
+  }
+
+  .header-content-img {
+    width: 379px;
+    height: 193px;
+    display: block;
+    margin: 0 auto;
+    order: 1; /* картинка первой */
+    transform: none;
+    position: static;
+  }
+
+  .header-content-button {
+    width: 345px;
+    height: 68px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px 0px rgba(213, 175, 155, 0.25);
+    background: rgba(213, 175, 155, 1);
+    color: rgba(255, 255, 255, 1);
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
+    top: -110px;
+    left: 0px;
+  }
+
+  .phone-icon-mobile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+    order: 3; /* телефон в самом низу */
+    top: -257px;
+    left: 0px;
+  }
+
+  .phone-img-mobile {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(213, 175, 155, 1);
+    box-shadow: 0px 0px 5px 0px rgba(213, 175, 155, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+  }
+
+  .phone-number-mobile {
+    width: 194px;
+    height: 29px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: rgba(99, 80, 69, 1);
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: left;
+  }
+  /* 
+  O нас */
+   .about {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 16px;
+        gap: 30px;
+        max-width: 100%;
+    }
+    
+    .about-content {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding-left: 0;
+        width: 100%;
+        align-items: center;
+    }
+    
+    .about-heading {
+        width: 322px;
+        height: auto;
+        color: rgba(213, 175, 155, 1);
+        font-family: "Montserrat";
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 34px;
+        text-align: left;
+        margin: 0;
+    }
+    
+    .about-slogan {
+        width: 322px;
+        height: auto;
+        color: rgba(170, 138, 125, 1);
+        font-family: "Lato";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        margin: 0;
+    }
+    
+    .about-border {
+        border: 1px solid rgba(213, 175, 155, 1);
+        width: 100%;
+        margin: 10px 0;
+    }
+    
+    .about-text {
+        width: 322px;
+        height: auto;
+        font-family: "Lato";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        color: rgba(170, 138, 125, 1);
+        text-align: left;
+        margin: 0;
+    }
+    
+    .about-text-mode {
+        font-family: "Lato";
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        color: rgba(170, 138, 125, 1);
+        display: block;
+        margin-top: 10px;
+    }
+    
+    .about-image {
+        display: none; /* скрываем картинку */
+    }
+    
+    /* БЛОК ЦЕН */
+    .about-price {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 16px;
+        gap: 30px;
+        max-width: 100%;
+        margin-top: 50px;
+    }
+    
+    .about-price-image {
+        display: none; /* скрываем картинку */
+    }
+    
+    .price-content {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    
+    .price-heading {
+        width: 322px;
+        height: auto;
+        font-family: "Montserrat";
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 34px;
+        text-align: left;
+        color: rgba(170, 138, 125, 1);
+        margin-left: 103px;
+        margin-top: 60px;
+    }
+    
+    .price-heading-mode {
+        width: 322px;
+        height: auto;
+        font-family: "Montserrat";
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 24px;
+        color: rgba(213, 175, 155, 1);
+        display: block;
+        margin-top: 10px;
+    }
+    
+    .price-text-mode {
+        width: 322px;
+        height: auto;
+        font-family: "Montserrat";
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        color: rgba(99, 80, 69, 1);
+        text-align: left;
+        margin-left: 103px;
+        margin-top: -45px;
+    }
+    
+    .price-text-list {
+        width: 322px;
+        height: auto;
+        font-family: "Montserrat";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        color: rgba(170, 138, 125, 1);
+        text-align: left;
+     margin-left: 155px;
+        padding-left: 20px;
+    }
+    
+    .price-text,
+    .price-text-featurce {
+        width: 322px;
+        height: auto;
+        font-family: "Montserrat";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        color: rgba(170, 138, 125, 1);
+        text-align: left;
+           margin-left: 103px;
+    }
+  /* клиенты */
+  .clients {
+    padding: 20px 16px;
+  }
+
+  .clients-heading {
+    width: 100%;
+    height: auto;
+    font-family: "Montserrat";
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+    margin-bottom: 30px;
+ margin-left: 34px;
+    transform: none;
+  }
+
+  .clients-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+     margin-left: 34px;
+  }
+
+  .client {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .client-wide {
+    grid-column: auto;
+  }
+
+  .container-icons-clients {
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    background: rgba(213, 175, 155, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .client img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+  }
+
+  .client-title {
+    color: rgba(99, 80, 69, 1);
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+    width: 100%;
+  }
+
+  .client-desc,
+  .client-desc-mode {
+    width: 100%;
+    color: rgba(170, 138, 125, 1);
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+  }
+
+  .client-description {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  /* advan */
+  .advantages {
+    margin-top: 40px;
+    padding: 20px 16px;
+  }
+
+  .advantages-heading {
+    width: 100%;
+    color: rgba(153, 120, 100, 1);
+    font-family: "Montserrat";
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 30px;
+    transform: none;
+  }
+
+  .advantages-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 23px;
+  }
+
+  .adv-card {
+    width: 346px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 1);
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+    padding: 20px;
+    margin-bottom: 0;
+  }
+
+  /* Разные высоты карточек */
+  .adv-card:nth-child(1) {
+    height: 320px;
+  }
+
+  .adv-card:nth-child(2) {
+    height: 220px;
+  }
+
+  .adv-card:nth-child(3) {
+    height: 134px;
+  }
+
+  .adv-card:nth-child(4) {
+    height: 131px;
+  }
+
+  .adv-image {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    flex-shrink: 0;
+  }
+
+  .adv-card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+  }
+
+  .adv-title {
+    width: 100%;
+    color: rgba(99, 80, 69, 1);
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+
+  .adv-desc {
+    width: 100%;
+    height: auto;
+    color: rgba(170, 138, 125, 1);
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+  }
+
+  /* faq */
+  .faq {
+    padding: 20px 16px;
+    height: auto;
+    min-height: 700px;
+  }
+
+  .faq-header {
+    margin-top: 40px;
+    gap: 15px;
+  }
+
+  .faq-heading {
+    width: 100%;
+    color: rgba(213, 175, 155, 1);
+    font-family: "Montserrat";
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+    transform: none;
+margin-left: 203px;
+  }
+
+  .faq-text {
+    color: rgba(99, 80, 69, 1);
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    transform: none;
+    margin-left: 203px;
+  }
+
+  .faq-accordion {
+    gap: 20px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+  }
+
+  .faq-item {
+    width: 346px;
+    min-height: auto; /* убираем фиксированную минимальную высоту */
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px rgba(213, 175, 155, 0.55);
+    background: rgba(255, 255, 255, 1);
+    transform: none;
+  }
+
+  .faq-summary {
+    padding: 20px;
+    color: rgba(99, 80, 69, 1);
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    min-height: 87px; /* минимальная высота вместо фиксированной */
+    height: auto; /* высота адаптируется под контент */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .faq-icon {
+    width: 50px;
+    height: 50px;
+    background: url("image/plus-large.svg") center center no-repeat;
+    background-size: 30px 30px;
+    background-color: rgba(213, 175, 155, 1);
+    border-radius: 10px;
+    flex-shrink: 0;
+    margin-left: 10px;
+  }
+
+  details[open] .faq-icon {
+    background: url("image/krest-large.svg") center center no-repeat;
+    background-size: 30px 30px;
+    background-color: #fff;
+  }
+
+  .faq-question {
+    color: rgba(99, 80, 69, 1);
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: left;
+    flex: 1;
+    padding-right: 10px; /* отступ от иконки */
+  }
+
+  .faq-answer {
+    padding: 15px 20px 20px;
+    color: rgba(99, 80, 69, 1);
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+  }
+
+  details summary::-webkit-details-marker {
+    display: none;
+  }
+  /* footer */
+  .footer {
+    padding: 20px 16px;
+  }
+
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 20px;
+  }
+
+  .footer-image {
+    display: none; /* скрываем картинку на мобильных */
+  }
+
+  .form-container {
+    transform: none;
+    margin-top: 0;
+    width: 100%;
+  }
+
+  .form-title {
+    width: 100%;
+    color: rgba(153, 120, 100, 1);
+    font-family: "Montserrat";
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+    margin-bottom: 15px;
+  }
+
+  .form-description {
+    color: rgba(170, 138, 125, 1);
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    margin-bottom: 25px;
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .form-field input {
+    width: 344px;
+    font-size: 16px;
+    padding: 12px 0;
+    border: none;
+    border-bottom: 1px solid #dabca7;
+    background: transparent;
+    font-family: "Montserrat";
+    outline: none;
+  }
+
+  input::placeholder {
+    opacity: 0.4;
+    color: rgba(99, 80, 69, 1);
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+  }
+
+  .form-btn {
+    width: 344px;
+    height: 59px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(213, 175, 155, 0.25);
+    background: rgba(255, 255, 255, 1);
+    color: rgba(153, 120, 100, 1);
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+  }
+
+  .form-agreement {
+    margin-top: 15px;
+  }
+
+  .data-aggr,
+  .data-list {
+    color: rgba(170, 138, 125, 1);
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+  }
+
+  .data-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+
+  .footer-political {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 40px;
+    align-items: flex-start;
+    margin-left: 20px;
+  }
+
+  .footer-politacl-text {
+    color: rgba(99, 80, 69, 1);
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+}
