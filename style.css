@@ -442,6 +442,7 @@ about */
   letter-spacing: 0%;
   text-align: left;
   color: rgba(170, 138, 125, 1);
+  margin-top: 20px;
 }
 .price-heading-mode {
   width: 524px;
@@ -494,12 +495,13 @@ about */
   width: 524px;
   height: 443px;
   color: rgba(170, 138, 125, 1);
-  margin-bottom: 20px;
+margin-top: 50px;
 }
 .about-price-image {
   position: relative;
   width: 1196.6px;
   height: 797.74px;
+   margin-top: 50px;
 }
 .price-img {
   position: absolute;
