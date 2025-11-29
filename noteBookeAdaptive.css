@@ -35,6 +35,10 @@ top: 116px;
   }
   .price-content{
     margin-right: 30px;
+  
+  }
+  .about-price-image{
+   margin-top: 20px;
   }
   .price-img{
     top: -60px;
@@ -53,65 +57,75 @@ margin-top: 70px;
 
 
   /* клиентс */
- .clients-grid {
+.clients-grid {
     grid-template-columns: repeat(2, 1fr);
-    gap: 18px 22px; /* уменьшенный вертикальный и горизонтальный отступ между карточками */
-    padding: 0 14px;
-  }
+    gap: 16px 20px; /* еще уменьшили отступы */
+    padding: 0 12px;
+}
 
-  .client {
+.client {
     align-items: flex-start;
-    gap: 10px;
-  }
+    gap: 8px;
+    padding: 12px; /* добавили внутренние отступы */
+}
 
-  .container-icons-clients {
-    width: 60px;
-    height: 60px;
-    min-width: 60px;
-    min-height: 60px;
-    max-width: 60px;
-    max-height: 60px;
-    border-radius: 14px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .container-icons-clients img {
-    width: 48px;
-    height: 48px;
-    object-fit: contain;
-  }
+.container-icons-clients {
+    width: 50px;
+    height: 50px;
+    min-width: 50px;
+    min-height: 50px;
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 12px;
+}
 
-  /* Заголовок */
-  .clients-heading {
-    width: 100%;
-    font-size: 36px;
-    margin-bottom: 18px;
-    margin-top: -60px;
-    transform: none;
-    padding-left: 8px;
-  }
+.container-icons-clients img {
+    width: 40px;
+    height: 40px;
+}
 
-  .client-title {
-    font-size: 18px;
-    line-height: 23px;
-    width: auto;
-  }
-  .client-desc,
-  .client-desc-mode {
-    font-size: 14px;
-    line-height: 19px;
-    width: auto;
-  }
+/* Заголовок */
+.clients-heading {
+         font-size: 32px;
+        margin-bottom: 78px;
+        margin-top: 10px;
+        padding-left: 154px;
+}
 
-  /* Нижний блок — растягиваем на все колонки */
-  .client-wide {
+.client-title {
+    font-size: 16px;
+    line-height: 21px;
+    margin-bottom: 4px; /* добавили отступ снизу */
+}
+
+.client-desc,
+.client-desc-mode {
+    font-size: 13px;
+    line-height: 18px;
+}
+
+/* Нижний блок */
+.client-wide {
     grid-column: 1 / span 2;
-    width: 100%;
-  }
-  .client-desc-mode {
-    width: 100%;
-  }
+}
+
+/* Дополнительные стили для лучшего отображения текста */
+.client-description {
+    flex: 1;
+    min-width: 0; /* важно для обрезки текста */
+}
+
+.client-desc,
+.client-desc-mode {
+    display: -webkit-box;
+    -webkit-line-clamp: 6; /* ограничиваем количество строк */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.client-wide .client-desc-mode {
+    -webkit-line-clamp: 4; /* для широкой карточки меньше строк */
+}
 
 
 
