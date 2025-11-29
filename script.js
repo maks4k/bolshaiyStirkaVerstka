@@ -6,7 +6,7 @@ const whatsAppUpdate = () => {
     const name = document.getElementById("name").value;
     const phone = document.getElementById("phone").value;
     const text = `Здравствуйте, меня зовут ${encodeURIComponent(name)}. Мой телефон ${encodeURIComponent(phone)}`;
-    const whatsappUrl = `https://wa.me/79017202459?text=${text}`;
+    const whatsappUrl = `https://wa.me/79857389238?text=${text}`;
     document.getElementById("whatsappButton").setAttribute("href", whatsappUrl);
   }, 300);
 };
