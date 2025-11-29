@@ -250,6 +250,7 @@ color: rgba(255, 255, 255, 1);
         flex-direction: column;
         gap: 20px;
         align-items: center;
+        margin-top: 20px;
     }
     
     .price-heading {
