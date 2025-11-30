@@ -322,36 +322,36 @@ color: rgba(255, 255, 255, 1);
   }
 
   .clients-heading {
-    width: 100%;
-    height: auto;
-    font-family: "Montserrat";
-    font-size: 28px;
-    font-weight: 700;
-    line-height: 34px;
-    text-align: left;
-    margin-bottom: 30px;
- margin-left: 34px;
-    transform: none;
+        width: auto;
+        font-family: "Montserrat";
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 30px;
+        text-align: left;
+        margin-bottom: 16px;
+        margin-left: 304px;
+        white-space: nowrap;
   }
 
   .clients-grid {
     display: flex;
     flex-direction: column;
     gap: 30px;
-     margin-left: 34px;
-  }
+margin-left: 5px;
+}
 
-  .client {
+.client {
     display: flex;
-    flex-direction: column;
+    flex-direction: row; /* меняем на row - иконка слева, текст справа */
     gap: 15px;
-  }
+    align-items: flex-start; /* выравниваем по верху */
+}
 
-  .client-wide {
+.client-wide {
     grid-column: auto;
-  }
+}
 
-  .container-icons-clients {
+.container-icons-clients {
     width: 50px;
     height: 50px;
     border-radius: 15px;
@@ -359,15 +359,16 @@ color: rgba(255, 255, 255, 1);
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+    flex-shrink: 0; /* чтобы иконка не сжималась */
+}
 
-  .client img {
+.client img {
     width: 40px;
     height: 40px;
     object-fit: contain;
-  }
+}
 
-  .client-title {
+.client-title {
     color: rgba(99, 80, 69, 1);
     font-family: "Montserrat";
     font-size: 18px;
@@ -375,10 +376,11 @@ color: rgba(255, 255, 255, 1);
     line-height: 22px;
     text-align: left;
     width: 100%;
-  }
+    margin: 0; /* убираем отступы */
+}
 
-  .client-desc,
-  .client-desc-mode {
+.client-desc,
+.client-desc-mode {
     width: 100%;
     color: rgba(170, 138, 125, 1);
     font-family: "Montserrat";
@@ -386,13 +388,15 @@ color: rgba(255, 255, 255, 1);
     font-weight: 400;
     line-height: 20px;
     text-align: left;
-  }
+    margin: 0; /* убираем отступы */
+}
 
-  .client-description {
+.client-description {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-  }
+    gap: 10px; /* уменьшаем отступ между заголовком и текстом */
+    flex: 1; /* занимает все оставшееся пространство */
+}
 
   /* advan */
   .advantages {
